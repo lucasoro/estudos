@@ -1,0 +1,1 @@
+print(((lambda x, y: x + y) if False else (lambda x, y: x * y))(2, 3))

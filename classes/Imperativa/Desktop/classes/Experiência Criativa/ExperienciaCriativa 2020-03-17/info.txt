@@ -1,0 +1,2 @@
+# Versão do python > 3.7.6
+# Versão do java > JDK 11.0.6
