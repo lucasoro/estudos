@@ -1,4 +1,4 @@
-# estudos
+# Estudos
 
 Olá! Este repositório tem como objetivo armazenar todos os scripts que eu utilizo para estudar, bem como alguns que eu mesmo escrevi.
 
