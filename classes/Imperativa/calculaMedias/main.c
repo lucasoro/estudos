@@ -4,6 +4,10 @@
 #include "suporte.h"
 #include "menus.h"
 
+/*
+Este foi meu primeiro projeto desenvolvido com a linguagem C. Alguns problemas podem ser apontados, principalmente, na estruturação dos arquivos header, que implementam funções, ao invés de simplesemente defini-las.
+*/
+
 int main() {
 	estrutura dados;
 	estrutura * p_dados = (estrutura *)malloc(sizeof(estrutura));
