@@ -1,0 +1,24 @@
+Resposta 1: O sensor não percebe que o registro não foi bem sucedido.
+O monitor não sabe que o sensor existe.
+
+Resposta 2: 
+
+Faz com que a chamada recv não seja mais bloqueante.
+Ou a chamada retorna imediatamente com dados ou gera um erro.
+Então é necessário esperar um tempo (TIMEOUT) antes de fazer a chamada.
+
+Porque o sensor não sabe quando irá receber algum comando do usuário. 
+Então o programa pode dormir até que o comando chegue.
+
+Resposta 3:
+
+Se o tempo for muito pequeno, e a rede for lenta e o destinatário muito distante, pode haver retransmissão desnecessária.
+
+Se o tempo for muito grande, a retransmissão é demorada, e a aplicação ficará ineficiente.
+
+Resposta 4:
+
+O controle verifica se o sensor se gregistoru anteriormente e se o IP é o de um sensor registrado. O que deve ser feito é associar a mensagem a um número de sequencia. 
+O ACK precisa trazer o número da mensagem que está confirmando.
+
+
